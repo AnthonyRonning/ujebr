@@ -59,6 +59,12 @@ INFO  bwt::indexer > completed initial sync in 51.211344ms up to height 1897523 
 
 ### UJEBR
 
+Install dependencies
+
+```bash
+cd backend && go get ./... && cd ..
+```
+
 ```bash
 go run backend/cmd/backend/*.go recover --recover_address mkHS9ne12qx9pS9VojpwU5xtRd4T7X7ZUt --bwt.url http://127.0.0.1 --bwt.port 3060
 ```
